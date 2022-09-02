@@ -25,7 +25,7 @@ export default function HomePage() {
 
             <footer className='absolute bottom-2 text-gray-700'>
               © {new Date().getFullYear()} By{' '}
-              <UnderlineLink href='https://www.innodigi.net'>
+              <UnderlineLink href='mailto:info@innodigi.net'>
                 innodigi.net
               </UnderlineLink>
             </footer>
