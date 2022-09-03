@@ -24,8 +24,8 @@ export default function HomePage() {
             <Image
               src='/favicon/android-chrome-192x192.png'
               alt='Site Logo'
-              width={200}
-              height={200}
+              width={192}
+              height={192}
             />
             <h1 className='mt-4'>Welcome to innodigi.net</h1>
             <p className='mt-2 text-sm text-gray-800'>Coming soon!</p>

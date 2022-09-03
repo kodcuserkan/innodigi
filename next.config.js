@@ -5,6 +5,11 @@ module.exports = {
   },
 
   reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_EMAILJS_SERVICE_ID: 'service_xykzhe7',
+    NEXT_PUBLIC_EMAILJS_TEMPLATE_ID: 'template_dtwjtq8',
+    NEXT_PUBLIC_EMAILJS_PUBLIC_ID: '5HZry-X1ccoYDjT8a',
+  },
 
   // Uncoment to add domain whitelist
   // images: {
