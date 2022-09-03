@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser';
 import React, { useEffect, useRef, useState } from 'react';
 
 import Button from '@/components/buttons/Button';
+import Seo from '@/components/Seo';
 const CLEAR_TIMEOUT = 5000;
 
 const Contact = () => {
@@ -36,10 +37,9 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className='h-screen flex flex-col 
-    items-center justify-center'
-    >
+    <div className='layout min-h-screen flex flex-col tems-center justify-center dropped-height pr-1 pl-1'>
+      <Seo templateTitle='Contact us' />
+
       {submitted ? (
         <>
           <div className='text-2xl'>Thank you!</div>

@@ -82,6 +82,10 @@
     @apply mx-auto w-11/12;
   }
 
+  .layout.dropped-height {
+    min-height: calc(100vh - 5rem);
+  }
+
   .bg-dark a.custom-link {
     @apply border-gray-200 hover:border-gray-200/0;
   }
