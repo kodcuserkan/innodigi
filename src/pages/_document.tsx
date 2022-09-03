@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <link
             rel='preload'
             href='/fonts/inter-var-latin.woff2'
-            as='font'
+            // as='font'
             type='font/woff2'
             crossOrigin='anonymous'
           />
