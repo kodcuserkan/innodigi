@@ -15,8 +15,8 @@ export default function HomePage() {
       <Seo templateTitle='Home' />
 
       <main>
-        <section className='bg-white'>
-          <div className='layout flex min-h-screen flex-col items-center justify-center text-center dropped-height'>
+        <section>
+          <div className='layout dropped-height flex min-h-screen flex-col items-center justify-center text-center'>
             {/* <Vercel className='text-5xl' /> */}
             <Image
               src='/favicon/android-chrome-192x192.png'

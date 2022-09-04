@@ -5,10 +5,10 @@ import Header from '@/components/layout/Header';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <div className='main-bg-color'>
       <Header />
       {children}
       <Footer />
-    </>
+    </div>
   );
 }
