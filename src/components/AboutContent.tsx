@@ -5,7 +5,7 @@ import UnderlineLink from '@/components/links/UnderlineLink';
 
 export const AboutContent = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='layout dropped-height extra container mx-auto'>
       <main className='mt-12 flex h-full w-full flex-col items-center'>
         <h3 className='mt-3 text-3xl font-normal transition-all dark:text-white'>
           We specialize in custom-tailored software solutions

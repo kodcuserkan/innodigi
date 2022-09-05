@@ -86,6 +86,10 @@
     min-height: calc(100vh - 5rem);
   }
 
+  .layout.dropped-height.extra {
+    min-height: calc(100vh - 7rem);
+  }
+
   .bg-dark a.custom-link {
     @apply border-gray-200 hover:border-gray-200/0;
   }

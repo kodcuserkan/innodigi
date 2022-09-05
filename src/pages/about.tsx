@@ -6,7 +6,7 @@ import Seo from '@/components/Seo';
 const About = () => {
   return (
     <>
-      <Seo templateTitle='About us' />
+      <Seo templateTitle='About Us' />
       <AboutContent />
     </>
   );
